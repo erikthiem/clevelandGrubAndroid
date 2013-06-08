@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Cleveland Grub</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="mainscreen_greeting_text">So, you\'re hungry and somewhere near Cleveland, Ohio?</string>
+    <string name="mainscreen_yes_button_text">Duh!</string>
+    <string name="mainscreen_no_button_text">Nope!</string>
+    
+</resources>

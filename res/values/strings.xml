@@ -8,4 +8,12 @@
     <string name="mainscreen_yes_button_text">Duh!</string>
     <string name="mainscreen_no_button_text">Nope!</string>
     
+    <string name="show_restaurants_header_text">Good Choice!</string>
+    
+    
+    <string name="mainscreen_no_button_clicked_header_text">Aww come on, why not?</string>
+    <string name="change_mind_button_text">I changed my mind, I want to eat!</string>
+    <string name="maybe_later_button_text">I promise I\'ll return!</string>
+    
+    
 </resources>

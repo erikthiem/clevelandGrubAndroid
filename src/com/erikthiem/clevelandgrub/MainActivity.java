@@ -1,6 +1,7 @@
 package com.erikthiem.clevelandgrub;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
@@ -23,13 +24,15 @@ public class MainActivity extends Activity {
 	// Handles when the yes button is clicked
 	public void yesButtonClicked(View view)
 	{
-		
+		Intent yesButtonClickedIntent = new Intent(this, show_restaurants_activity.class);
+		startActivity(yesButtonClickedIntent);
 	}
 	
 	// Handles when the no button is clicked
 	public void noButtonClicked(View view)
 	{
-		
+		Intent noButtonClickedIntent = new Intent(this, mainscreen_no_button_clicked_activity.class);
+		startActivity(noButtonClickedIntent);
 	}
 	
 	// This function handles all button clicks in one convenient place!
@@ -38,12 +41,10 @@ public class MainActivity extends Activity {
 		switch (view.getId())
 		{
 			case R.id.mainscreen_yes_button:
-				//yes button clicked
-				System.out.println("yes button clicked");
+				yesButtonClicked(view);
 				break;
 			case R.id.mainscreen_no_button:
-				//no button clicked
-				System.out.println("no button clicked");
+				noButtonClicked(view);
 				break;
 			default:
 				// do nothing, there is no default for now

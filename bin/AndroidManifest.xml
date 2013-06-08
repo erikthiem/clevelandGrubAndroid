@@ -22,6 +22,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".show_restaurants_activity"></activity>
+        <activity android:name=".mainscreen_no_button_clicked_activity"></activity>
     </application>
 
 </manifest>
